@@ -1,3 +1,22 @@
 body {
-    display: block;
+    background-color:lightgray;
+}
+.part1 {
+    float: left;
+    width: 45%;
+    height: 800px;
+    background-color: aliceblue;
+}
+.part2 {
+    float: left;
+    width: 45%;
+    height: 800px;
+    background-color: aliceblue;
+}
+
+footer div {
+    width: 100%;
+}
+.clearfix {
+    clear: both;
 }
