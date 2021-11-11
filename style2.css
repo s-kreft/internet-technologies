@@ -15,12 +15,11 @@ body {
     padding: auto;
     background-color: aliceblue;
 }
-
-footer div {
-    width: 100%;
-    background-color: aliceblue;
-    display: inline-block;
+.form-col {
+    background-color: lightgray;
+    margin: 5%;
 }
+
 .clearfix {
     clear: both;
 }
@@ -45,8 +44,7 @@ ul li ul li {
     width: 100%;
 }
 a {
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 a:hover {
     background-color: darkgoldenrod;
@@ -58,4 +56,26 @@ ul li ul li a {
 img {
     width: 100%;
     height: 20%;
+}
+table {
+    width: 100%;
+}
+table tr td {
+    border-bottom: 1px solid lightgreen;
+    text-align: center;
+}
+/* table tr th {
+position: relative;
+} */
+
+footer div {
+    float: left;
+    width: 33%;
+    text-align: center;
+}
+@media (max-width: 1000px) {
+    .part1, .part2 {
+        width: 100%;
+        float: left;
+    }
 }
